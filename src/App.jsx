@@ -3,6 +3,7 @@ import { useEffect, useMemo, useState } from "react";
 import Start from "./components/Start";
 import Timer from "./components/Timer";
 import Trivia from "./components/Trivia";
+import Restart from "./components/Restart";
 
 function App() {
   const [username, setUsername] = useState(null);
@@ -13,66 +14,66 @@ function App() {
   const data = [
     {
       id: 1,
-      question: "Rolex is a company that specializes in what type of product?",
+      question: "What is a SASA Astronaut called?",
       answers: [
         {
-          text: "Phone",
+          text: "Astronomer",
           correct: false,
         },
         {
-          text: "Watches",
+          text: "Sastronaut",
           correct: true,
         },
         {
-          text: "Food",
+          text: "Lion",
           correct: false,
         },
         {
-          text: "Cosmetic",
+          text: "SasaMan",
           correct: false,
         },
       ],
     },
     {
       id: 2,
-      question: "When did the website `Facebook` launch?",
+      question: "SASA wants us to have the heart of a ______?",
       answers: [
         {
-          text: "2004",
+          text: "Lion",
           correct: true,
         },
         {
-          text: "2005",
+          text: "Racoon",
           correct: false,
         },
         {
-          text: "2006",
+          text: "Beaver",
           correct: false,
         },
         {
-          text: "2007",
+          text: "Leopard",
           correct: false,
         },
       ],
     },
     {
       id: 3,
-      question: "Who played the character of harry potter in movie?",
+      question: "Who invented the Heliocentric Telescope?",
       answers: [
         {
-          text: "Johnny Deep",
+          text: "Mr. Obinna",
           correct: false,
         },
         {
-          text: "Leonardo Di Caprio",
+          text: "Mr. Richard",
           correct: false,
         },
         {
-          text: "Denzel Washington",
+          text: "The Director",
           correct: false,
         },
         {
-          text: "Daniel Red Cliff",
+          text: "Galileo Galilay",
           correct: true,
         },
       ],
@@ -107,54 +108,59 @@ function App() {
   }, [questionNumber, moneyPyramid]);
 
   return (
-    <div className="app">
-      {!username ? (
-        <Start setUsername={setUsername} />
-      ) : (
-        <>
-          <div className="main">
-            {timeOut ? (
-              <h1 className="endText">You earned: {earned}</h1>
-            ) : (
-              <>
-                <div className="top">
-                  <div className="timer">
-                    <Timer
-                      setTimeOut={setTimeOut}
+    <>
+      <div className="app">
+        {!username ? (
+          <Start setUsername={setUsername} />
+        ) : (
+          <>
+            <div className="main">
+              {timeOut ? (
+                <h1 className="endText">You earned: {earned}</h1>
+              ) : (
+                <>
+                  <div className="top">
+                    {/* <div className="restart">
+                      <Restart />
+                    </div> */}
+                    <div className="timer">
+                      <Timer
+                        setTimeOut={setTimeOut}
+                        questionNumber={questionNumber}
+                      />
+                    </div>
+                  </div>
+                  <div className="bottom">
+                    <Trivia
+                      data={data}
                       questionNumber={questionNumber}
+                      setQuestionNumber={setQuestionNumber}
+                      setTimeOut={setTimeOut}
                     />
                   </div>
-                </div>
-                <div className="bottom">
-                  <Trivia
-                    data={data}
-                    questionNumber={questionNumber}
-                    setQuestionNumber={setQuestionNumber}
-                    setTimeOut={setTimeOut}
-                  />
-                </div>
-              </>
-            )}
-          </div>
-          <div className="pyramid">
-            <ul className="moneyList">
-              {moneyPyramid.map((m) => (
-                <li
-                  className={
-                    questionNumber === m.id
-                      ? "moneyListItem active"
-                      : "moneyListItem"
-                  }
-                >
-                  <span className="moneyListItemNumber">{m.id}</span>
-                  <span className="moneyListItemAmount">{m.amount}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </>
-      )}
-    </div>
+                </>
+              )}
+            </div>
+            <div className="pyramid">
+              <ul className="moneyList">
+                {moneyPyramid.map((m) => (
+                  <li
+                    className={
+                      questionNumber === m.id
+                        ? "moneyListItem active"
+                        : "moneyListItem"
+                    }
+                  >
+                    <span className="moneyListItemNumber">{m.id}</span>
+                    <span className="moneyListItemAmount">{m.amount}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </>
+        )}
+      </div>
+    </>
   );
 }
 
