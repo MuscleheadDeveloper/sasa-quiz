@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sasa-quiz/static/css/main.8bddb303.chunk.css",
-    "main.js": "/sasa-quiz/static/js/main.c622a539.chunk.js",
-    "main.js.map": "/sasa-quiz/static/js/main.c622a539.chunk.js.map",
+    "main.js": "/sasa-quiz/static/js/main.a5239b69.chunk.js",
+    "main.js.map": "/sasa-quiz/static/js/main.a5239b69.chunk.js.map",
     "runtime-main.js": "/sasa-quiz/static/js/runtime-main.5af7ff28.js",
     "runtime-main.js.map": "/sasa-quiz/static/js/runtime-main.5af7ff28.js.map",
     "static/js/2.1d549cde.chunk.js": "/sasa-quiz/static/js/2.1d549cde.chunk.js",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.5af7ff28.js",
     "static/js/2.1d549cde.chunk.js",
     "static/css/main.8bddb303.chunk.css",
-    "static/js/main.c622a539.chunk.js"
+    "static/js/main.a5239b69.chunk.js"
   ]
 }
