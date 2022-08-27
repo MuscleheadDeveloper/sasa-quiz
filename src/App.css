@@ -8,15 +8,17 @@
 .main {
   width: 75%;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #020230),
-    url("https://i.ytimg.com/vi/yQbJRGs0fy8/maxresdefault.jpg") center;
+    url("./assets/bg.jpg") center;
   display: flex;
   flex-direction: column;
 }
 
 .pyramid {
   width: 25%;
+  height: 100vh;
   background-color: #020230;
   display: flex;
+  overflow: hidden;
   align-items: center;
   justify-content: center;
 }
@@ -24,28 +26,32 @@
 .moneyList {
   padding: 20px;
   list-style: none;
+  overflow: scroll;
+  height: inherit;
   width: 100%;
+  font-size: 16px;
 }
 
 .moneyListItem {
   display: flex;
-  align-items: center;
   padding: 5px;
   border-radius: 5px;
 }
 
 .moneyListItem.active {
   background-color: teal;
+  position: sticky;
+  bottom: 50%;
 }
 
 .moneyListItemNumber {
   width: 30%;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 100;
 }
 
 .moneyListItemAmount {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 300;
 }
 
@@ -166,6 +172,15 @@
   right: 0;
   margin: auto;
 }
+.activeText {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font-family: "Courier New", Courier, monospace;
+}
 
 .start {
   width: 250px;
@@ -203,4 +218,16 @@
   cursor: pointer;
   font-size: 18px;
   font-weight: 500;
+}
+.restartButton {
+  width: 500px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  position: fixed;
+  top: 60%;
+  right: 45%;
 }

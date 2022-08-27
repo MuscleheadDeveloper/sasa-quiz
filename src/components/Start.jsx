@@ -1,10 +1,12 @@
 import { useRef } from "react";
 
-export default function Start({ setUsername }) {
+export default function Start({ setUsername}) {
   const inputRef = useRef();
 
-  const handleClick = () => {
+  const handleClick = (e) => {
     inputRef.current.value && setUsername(inputRef.current.value);
+    
+
   };
 
   return (
