@@ -8,7 +8,7 @@ function App() {
   const [username, setUsername] = useState(null);
   const [timeOut, setTimeOut] = useState(false);
   const [questionNumber, setQuestionNumber] = useState(1);
-  const [earned, setEarned] = useState("$ 0");
+  const [earned, setEarned] = useState("0");
 
   const handleReload = () => {
     window.location.reload();
@@ -17,7 +17,8 @@ function App() {
   const data = [
     {
       id: 1,
-      question: "List these famous women in the order in which they appear in the bible. A.Mary Magdalene B. Eve C.Sarah D.Mary, the mother of God",
+      question:
+        "List these famous women in the order in which they appear in the bible. A.Mary Magdalene B. Eve C.Sarah D.Mary, the mother of God",
       answers: [
         {
           text: "A,B,C,D",
@@ -39,7 +40,8 @@ function App() {
     },
     {
       id: 2,
-      question: "Who visited Mary with the news that she would bear Gods's son, Jesus?",
+      question:
+        "Who visited Mary with the news that she would bear Gods's son, Jesus?",
       answers: [
         {
           text: "the angel Gabriel",
@@ -61,7 +63,8 @@ function App() {
     },
     {
       id: 3,
-      question: "Put the following books in the order they apear in the bible.   A.REVELATION B.LUKE C.FIRST THESSELONIANS D.MATTHEW?",
+      question:
+        "Put the following books in the order they apear in the bible.   A.REVELATION B.LUKE C.FIRST THESSELONIANS D.MATTHEW?",
       answers: [
         {
           text: "B,C,D,A",
@@ -82,7 +85,7 @@ function App() {
       ],
     },
     {
-      id: 4, 
+      id: 4,
       question: "What did Delilah do to Samson to take away his strength?",
       answers: [
         {
@@ -139,11 +142,11 @@ function App() {
         },
         {
           text: "a day of rest",
-          correct: false,
+          correct: true,
         },
         {
           text: "what's up",
-          correct: true,
+          correct: false,
         },
       ],
     },
@@ -281,7 +284,8 @@ function App() {
     },
     {
       id: 13,
-      question: "Jesus used these kinds of stories to helppeople understand what the reign of God was like?",
+      question:
+        "Jesus used these kinds of stories to helppeople understand what the reign of God was like?",
       answers: [
         {
           text: "bedtime stories",
@@ -347,7 +351,8 @@ function App() {
     },
     {
       id: 16,
-      question: "Place these commandments in the order in which they appear in the Bible. A. Honour your father and mother B. Remember the Sabbath Day keep it holy C. You shall not steal D. Do not covet your neighbors wife. ",
+      question:
+        "Place these commandments in the order in which they appear in the Bible. A. Honour your father and mother B. Remember the Sabbath Day keep it holy C. You shall not steal D. Do not covet your neighbors wife. ",
       answers: [
         {
           text: "B,C,A,D",
@@ -391,7 +396,8 @@ function App() {
     },
     {
       id: 18,
-      question: "List these characters in the order in which they encounter Jesus in the Gospels. A. Pilate B. Peter C. John the Baptist D. Joseph, husband of Mary",
+      question:
+        "List these characters in the order in which they encounter Jesus in the Gospels. A. Pilate B. Peter C. John the Baptist D. Joseph, husband of Mary",
       answers: [
         {
           text: "D,B,C,A",
@@ -413,7 +419,8 @@ function App() {
     },
     {
       id: 19,
-      question: "Who led the Israelites from slavery in Egypt across the Red Sea and to the promised Land?",
+      question:
+        "Who led the Israelites from slavery in Egypt across the Red Sea and to the promised Land?",
       answers: [
         {
           text: "King David",
@@ -435,7 +442,8 @@ function App() {
     },
     {
       id: 20,
-      question: "Which of these foods did the Israelites depend on as they journeyed in the wilderness with Moses?",
+      question:
+        "Which of these foods did the Israelites depend on as they journeyed in the wilderness with Moses?",
       answers: [
         {
           text: "Big Macs",
@@ -457,7 +465,8 @@ function App() {
     },
     {
       id: 21,
-      question: "Which of these books is not one of the prophetic books of the Old Testament?",
+      question:
+        "Which of these books is not one of the prophetic books of the Old Testament?",
       answers: [
         {
           text: "Jeremiah",
@@ -479,7 +488,8 @@ function App() {
     },
     {
       id: 22,
-      question: "The sermon on the Mount, in which Jesus teaches the beatitudes can be found in which Gospel?",
+      question:
+        "The sermon on the Mount, in which Jesus teaches the beatitudes can be found in which Gospel?",
       answers: [
         {
           text: "Matthew",
@@ -523,7 +533,8 @@ function App() {
     },
     {
       id: 24,
-      question: "List these famous leaders in the order in which they appear in the Old Testament. A. Jacob B. Abraham C. Moses D. Issac",
+      question:
+        "List these famous leaders in the order in which they appear in the Old Testament. A. Jacob B. Abraham C. Moses D. Issac",
       answers: [
         {
           text: " B,C,D,A",
@@ -655,7 +666,8 @@ function App() {
     },
     {
       id: 30,
-      question: "To test Abrahams faith, God instructed him to sacrifice his only what?",
+      question:
+        "To test Abrahams faith, God instructed him to sacrifice his only what?",
       answers: [
         {
           text: "son, Issac",
@@ -677,7 +689,8 @@ function App() {
     },
     {
       id: 31,
-      question: "List these major sections of the Bible in the order in which they appear. A. the historical books B. the Gospels C. the Pentatuch D. the epistles?",
+      question:
+        "List these major sections of the Bible in the order in which they appear. A. the historical books B. the Gospels C. the Pentatuch D. the epistles?",
       answers: [
         {
           text: "A,C,B,A",
@@ -721,7 +734,8 @@ function App() {
     },
     {
       id: 33,
-      question: "Who is the most important and powerful person in the Jewish community during the time of Jesus?",
+      question:
+        "Who is the most important and powerful person in the Jewish community during the time of Jesus?",
       answers: [
         {
           text: "Pharises",
@@ -743,7 +757,8 @@ function App() {
     },
     {
       id: 34,
-      question: "Who created the golden calf for the Israelites while Moses was on Mount Sinai?",
+      question:
+        "Who created the golden calf for the Israelites while Moses was on Mount Sinai?",
       answers: [
         {
           text: "Aaron",
@@ -809,7 +824,8 @@ function App() {
     },
     {
       id: 37,
-      question: "What is the correct ending to the verse 'Blessed are the poor in spirit...'?",
+      question:
+        "What is the correct ending to the verse 'Blessed are the poor in spirit...'?",
       answers: [
         {
           text: "for they will receive an allowance",
@@ -831,7 +847,8 @@ function App() {
     },
     {
       id: 38,
-      question: "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
       answers: [
         {
           text: "Jeremiah",
@@ -854,84 +871,83 @@ function App() {
   ];
 
   const moneyPyramid = useMemo(
-    () =>
-      [
-        { id: 1, amount: "$ 10" },
-        { id: 2, amount: "$ 20" },
-        { id: 3, amount: "$ 30" },
-        { id: 4, amount: "$ 40" },
-        { id: 5, amount: "$ 50" },
-        { id: 6, amount: "$ 60" },
-        { id: 7, amount: "$ 70" },
-        { id: 8, amount: "$ 80" },
-        { id: 9, amount: "$ 90" },
-        { id: 10, amount: "$ 100" },
-        { id: 11, amount: "$ 200" },
-        { id: 12, amount: "$ 300" },
-        { id: 13, amount: "$ 400" },
-        { id: 14, amount: "$ 500" },
-        { id: 15, amount: "$ 1000" },
-        { id: 16, amount: "$ 2000" },
-        { id: 17, amount: "$ 3.000" },
-        { id: 18, amount: "$ 4000" },
-        { id: 19, amount: "$ 5.000" },
-        { id: 20, amount: "$ 6.000" },
-        { id: 21, amount: "$ 7.000" },
-        { id: 22, amount: "$ 8.000" },
-        { id: 23, amount: "$ 9.000" },
-        { id: 24, amount: "$ 10.000" },
-        { id: 25, amount: "$ 20.000" },
-        { id: 26, amount: "$ 30.000" },
-        { id: 27, amount: "$ 40.000" },
-        { id: 28, amount: "$ 50.000" },
-        { id: 29, amount: "$ 60.000" },
-        { id: 30, amount: "$ 70.000" },
-        { id: 31, amount: "$ 80.000" },
-        { id: 32, amount: "$ 90.000" },
-        { id: 33, amount: "$ 100.000" },
-        { id: 34, amount: "$ 200.000" },
-        { id: 35, amount: "$ 300.000" },
-        { id: 36, amount: "$ 400.000" },
-        { id: 37, amount: "$ 500.000" },
-        { id: 38, amount: "$ 600.000" },
-        { id: 39, amount: "$ 700.000" },
-        { id: 40, amount: "$ 800.000" },
-        { id: 41, amount: "$ 900.000" },
-        { id: 42, amount: "$ 1.000.000" },
-        { id: 43, amount: "$ 2.000.000" },
-        { id: 44, amount: "$ 3.000.000" },
-        { id: 45, amount: "$ 4.000.000" },
-        { id: 46, amount: "$ 5.000.000" },
-        { id: 47, amount: "$ 6.000.000" },
-        { id: 48, amount: "$ 7.000.000" },
-        { id: 49, amount: "$ 8.000.000" },
-        { id: 50, amount: "$ 9.000.000" },
-        { id: 51, amount: "$ 10.000.000" },
-        { id: 52, amount: "$ 20.000.000" },
-        { id: 53, amount: "$ 30.000.000" },
-        { id: 54, amount: "$ 40.000.000" },
-        { id: 55, amount: "$ 50.000.000" },
-        { id: 56, amount: "$ 60.000.000" },
-        { id: 57, amount: "$ 70.000.000" },
-        { id: 58, amount: "$ 80.000.000" },
-        { id: 59, amount: "$ 90.000.000" },
-        { id: 60, amount: "$ 100.000.000" },
-        { id: 61, amount: "$ 200.000.000" },
-        { id: 62, amount: "$ 300.000.000" },
-        { id: 63, amount: "$ 400.000.000" },
-        { id: 64, amount: "$ 500.000.000" },
-        { id: 65, amount: "$ 600.000.000" },
-        { id: 66, amount: "$ 700.000.000" },
-        { id: 67, amount: "$ 800.000.000" },
-        { id: 68, amount: "$ 900.000.000" },
-        { id: 69, amount: "$ 1.000.000.000" },
-        { id: 70, amount: "$ 2.000.000.000" },
-        { id: 71, amount: "$ 3.000.000.000" },
-        { id: 72, amount: "$ 4.000.000.000" },
-        { id: 73, amount: "$ 5.000.000.000" },
-        { id: 74, amount: "$ 6.000.000.000" },
-        { id: 75, amount: "$ 7.000.000.000" },
-      ],
+    () => [
+      { id: 1, amount: "10 Shekels" },
+      { id: 2, amount: "20 Shekels" },
+      { id: 3, amount: "30 Shekels" },
+      { id: 4, amount: "40 Shekels" },
+      { id: 5, amount: "50 Shekels" },
+      { id: 6, amount: "60 Shekels" },
+      { id: 7, amount: "70 Shekels" },
+      { id: 8, amount: "80 Shekels" },
+      { id: 9, amount: "90 Shekels" },
+      { id: 10, amount: "100 Shekels" },
+      { id: 11, amount: "200 Shekels" },
+      { id: 12, amount: "300 Shekels" },
+      { id: 13, amount: "400 Shekels" },
+      { id: 14, amount: "500 Shekels" },
+      { id: 15, amount: "1000 Shekels" },
+      { id: 16, amount: "2000 Shekels" },
+      { id: 17, amount: "3.000 Shekels" },
+      { id: 18, amount: "4000 Shekels" },
+      { id: 19, amount: "5.000 Shekels" },
+      { id: 20, amount: "6.000 Shekels" },
+      { id: 21, amount: "7.000 Shekels" },
+      { id: 22, amount: "8.000 Shekels" },
+      { id: 23, amount: "9.000 Shekels" },
+      { id: 24, amount: "10.000 Shekels" },
+      { id: 25, amount: "20.000 Shekels" },
+      { id: 26, amount: "30.000 Shekels" },
+      { id: 27, amount: "40.000 Shekels" },
+      { id: 28, amount: "50.000 Shekels" },
+      { id: 29, amount: "60.000 Shekels" },
+      { id: 30, amount: "70.000 Shekels" },
+      { id: 31, amount: "80.000 Shekels" },
+      { id: 32, amount: "90.000 Shekels" },
+      { id: 33, amount: "100.000 Shekels" },
+      { id: 34, amount: "200.000 Shekels" },
+      { id: 35, amount: "300.000 Shekels" },
+      { id: 36, amount: "400.000 Shekels" },
+      { id: 37, amount: "500.000 Shekels" },
+      { id: 38, amount: "600.000 Shekels" },
+      { id: 39, amount: "700.000 Shekels" },
+      { id: 40, amount: "800.000 Shekels" },
+      { id: 41, amount: "900.000 Shekels" },
+      { id: 42, amount: "1.000.000 Shekels" },
+      { id: 43, amount: "2.000.000 Shekels" },
+      { id: 44, amount: "3.000.000 Shekels" },
+      { id: 45, amount: "4.000.000 Shekels" },
+      { id: 46, amount: "5.000.000 Shekels" },
+      { id: 47, amount: "6.000.000 Shekels" },
+      { id: 48, amount: "7.000.000 Shekels" },
+      { id: 49, amount: "8.000.000 Shekels" },
+      { id: 50, amount: "9.000.000 Shekels" },
+      { id: 51, amount: "10.000.000 Shekels" },
+      { id: 52, amount: "20.000.000 Shekels" },
+      { id: 53, amount: "30.000.000 Shekels" },
+      { id: 54, amount: "40.000.000 Shekels" },
+      { id: 55, amount: "50.000.000 Shekels" },
+      { id: 56, amount: "60.000.000 Shekels" },
+      { id: 57, amount: "70.000.000 Shekels" },
+      { id: 58, amount: "80.000.000 Shekels" },
+      { id: 59, amount: "90.000.000 Shekels" },
+      { id: 60, amount: "100.000.000 Shekels" },
+      { id: 61, amount: "200.000.000 Shekels" },
+      { id: 62, amount: "300.000.000 Shekels" },
+      { id: 63, amount: "400.000.000 Shekels" },
+      { id: 64, amount: "500.000.000 Shekels" },
+      { id: 65, amount: "600.000.000 Shekels" },
+      { id: 66, amount: "700.000.000 Shekels" },
+      { id: 67, amount: "800.000.000 Shekels" },
+      { id: 68, amount: "900.000.000 Shekels" },
+      { id: 69, amount: "1.000.000.000 Shekels" },
+      { id: 70, amount: "2.000.000.000 Shekels" },
+      { id: 71, amount: "3.000.000.000 Shekels" },
+      { id: 72, amount: "4.000.000.000 Shekels" },
+      { id: 73, amount: "5.000.000.000 Shekels" },
+      { id: 74, amount: "6.000.000.000 Shekels" },
+      { id: 75, amount: "7.000.000.000 Shekels" },
+    ],
     []
   );
 
