@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/sasa-quiz/static/css/main.8bddb303.chunk.css",
-    "main.js": "/sasa-quiz/static/js/main.c622a539.chunk.js",
-    "main.js.map": "/sasa-quiz/static/js/main.c622a539.chunk.js.map",
-    "runtime-main.js": "/sasa-quiz/static/js/runtime-main.5af7ff28.js",
-    "runtime-main.js.map": "/sasa-quiz/static/js/runtime-main.5af7ff28.js.map",
-    "static/js/2.1d549cde.chunk.js": "/sasa-quiz/static/js/2.1d549cde.chunk.js",
-    "static/js/2.1d549cde.chunk.js.map": "/sasa-quiz/static/js/2.1d549cde.chunk.js.map",
-    "static/js/3.34409a36.chunk.js": "/sasa-quiz/static/js/3.34409a36.chunk.js",
-    "static/js/3.34409a36.chunk.js.map": "/sasa-quiz/static/js/3.34409a36.chunk.js.map",
-    "index.html": "/sasa-quiz/index.html",
-    "static/css/main.8bddb303.chunk.css.map": "/sasa-quiz/static/css/main.8bddb303.chunk.css.map",
-    "static/js/2.1d549cde.chunk.js.LICENSE.txt": "/sasa-quiz/static/js/2.1d549cde.chunk.js.LICENSE.txt",
-    "static/js/3.34409a36.chunk.js.LICENSE.txt": "/sasa-quiz/static/js/3.34409a36.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/sasa-quiz/static/media/bg.c137ccd7.jpg",
-    "static/media/correct.160572d7.mp3": "/sasa-quiz/static/media/correct.160572d7.mp3",
-    "static/media/play.8e5f6d1d.mp3": "/sasa-quiz/static/media/play.8e5f6d1d.mp3",
-    "static/media/wrong.e9468218.mp3": "/sasa-quiz/static/media/wrong.e9468218.mp3"
+    "main.css": "/static/css/main.ead59564.chunk.css",
+    "main.js": "/static/js/main.a5239b69.chunk.js",
+    "main.js.map": "/static/js/main.a5239b69.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.45fc9585.js",
+    "runtime-main.js.map": "/static/js/runtime-main.45fc9585.js.map",
+    "static/js/2.1d549cde.chunk.js": "/static/js/2.1d549cde.chunk.js",
+    "static/js/2.1d549cde.chunk.js.map": "/static/js/2.1d549cde.chunk.js.map",
+    "static/js/3.34409a36.chunk.js": "/static/js/3.34409a36.chunk.js",
+    "static/js/3.34409a36.chunk.js.map": "/static/js/3.34409a36.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.ead59564.chunk.css.map": "/static/css/main.ead59564.chunk.css.map",
+    "static/js/2.1d549cde.chunk.js.LICENSE.txt": "/static/js/2.1d549cde.chunk.js.LICENSE.txt",
+    "static/js/3.34409a36.chunk.js.LICENSE.txt": "/static/js/3.34409a36.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/bg.c137ccd7.jpg",
+    "static/media/correct.160572d7.mp3": "/static/media/correct.160572d7.mp3",
+    "static/media/play.8e5f6d1d.mp3": "/static/media/play.8e5f6d1d.mp3",
+    "static/media/wrong.e9468218.mp3": "/static/media/wrong.e9468218.mp3"
   },
   "entrypoints": [
-    "static/js/runtime-main.5af7ff28.js",
+    "static/js/runtime-main.45fc9585.js",
     "static/js/2.1d549cde.chunk.js",
-    "static/css/main.8bddb303.chunk.css",
-    "static/js/main.c622a539.chunk.js"
+    "static/css/main.ead59564.chunk.css",
+    "static/js/main.a5239b69.chunk.js"
   ]
 }

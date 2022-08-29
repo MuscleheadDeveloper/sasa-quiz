@@ -42,7 +42,7 @@ export default function Trivia({
     // }, 3000);
 
     // setTimeout(() => {
-      delay(5000, () => {
+    delay(3000, () => {
       if (a.correct) {
         correctAnswer();
         delay(1000, () => {
@@ -62,8 +62,8 @@ export default function Trivia({
         //   setTimeOut(true);
         // }, 1000);
       }
-    // }, 5000);
-      })
+      // }, 5000);
+    });
   };
   return (
     <div className="trivia">

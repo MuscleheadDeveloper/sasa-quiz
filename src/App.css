@@ -41,7 +41,7 @@
 .moneyListItem.active {
   background-color: teal;
   position: sticky;
-  bottom: 50%;
+  bottom: 0;
 }
 
 .moneyListItemNumber {
