@@ -886,10 +886,10 @@ function App() {
       { id: 12, amount: "300 Shekels" },
       { id: 13, amount: "400 Shekels" },
       { id: 14, amount: "500 Shekels" },
-      { id: 15, amount: "1000 Shekels" },
-      { id: 16, amount: "2000 Shekels" },
+      { id: 15, amount: "1.000 Shekels" },
+      { id: 16, amount: "2.000 Shekels" },
       { id: 17, amount: "3.000 Shekels" },
-      { id: 18, amount: "4000 Shekels" },
+      { id: 18, amount: "4.000 Shekels" },
       { id: 19, amount: "5.000 Shekels" },
       { id: 20, amount: "6.000 Shekels" },
       { id: 21, amount: "7.000 Shekels" },
@@ -967,7 +967,7 @@ function App() {
               {timeOut ? (
                 <>
                   <h1 className="activeText">
-                    Congratulations {username}, You earned: {earned}
+                    Congratulations {username}, You earned: {earned} Shekels.
                   </h1>
                   <button className="restartButton" onClick={handleReload}>
                     RESTART
@@ -1007,7 +1007,7 @@ function App() {
                         : "moneyListItem"
                     }
                   >
-                    <span className="moneyListItemNumber">{m.id}</span>
+                    <span className="moneyListItemNumber">{m.id}.</span>
                     <span className="moneyListItemAmount">{m.amount}</span>
                   </li>
                 ))}

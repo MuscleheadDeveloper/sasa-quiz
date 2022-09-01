@@ -12,6 +12,15 @@
   display: flex;
   flex-direction: column;
 }
+.errorMessageNot{
+display: none;
+}
+.errorMessage{
+  color: red;
+  font-size: 16px;
+  padding: 10px 0;
+  display: block;
+}
 
 .pyramid {
   width: 25%;
@@ -54,7 +63,14 @@
   font-size: 16px;
   font-weight: 300;
 }
-
+@media (max-width: 776px) {
+  .moneyListItemAmount {
+    font-size: 1.5rem;
+  }
+  .moneyListItemNumber {
+    font-size: 1.5rem;
+  }
+}
 .top {
   height: 50%;
   position: relative;
