@@ -16,9 +16,31 @@ function App() {
 
   const data = [
     {
+      id: 1,
+      question: "In the book of numbers who challenges Moses authority?",
+      answers: [
+        {
+          text: "Joshua",
+          correct: false,
+        },
+        {
+          text: "the people of Israel",
+          correct: false,
+        },
+        {
+          text: "the people of Levi",
+          correct: false,
+        },
+        {
+          text: "Aaron & Miriam",
+          correct: true,
+        },
+      ],
+    },
+    {
       id: 2,
       question:
-        "List these famous women in the order in which they appear in the bible. A.Mary Magdalene B. Eve C.Sarah D.Mary, the mother of God",
+        "List these famous women in the order in which they appear in the bible.   A.Mary Magdalene B. Eve C.Sarah D.Mary, the mother of God",
       answers: [
         {
           text: "A,B,C,D",
@@ -34,29 +56,6 @@ function App() {
         },
         {
           text: "B,D,C,A",
-          correct: false,
-        },
-      ],
-    },
-    {
-      id: 44,
-      question:
-        "Who visited Mary with the news that she would bear Gods's son, Jesus?",
-      answers: [
-        {
-          text: "the angel Gabriel",
-          correct: true,
-        },
-        {
-          text: "the Avon Lady",
-          correct: false,
-        },
-        {
-          text: "a census taker",
-          correct: false,
-        },
-        {
-          text: "the angel Raphael",
           correct: false,
         },
       ],
@@ -84,25 +83,26 @@ function App() {
         },
       ],
     },
+
     {
-      id: 8,
-      question: "What did Delilah do to Samson to take away his strength?",
+      id: 4,
+      question: "The official Roman charge against Jesus was that he had?",
       answers: [
         {
-          text: "talked him into fighting an army",
+          text: "committed blasphemy",
           correct: false,
         },
         {
-          text: "blinded him",
+          text: "claimed to be a King",
           correct: false,
         },
         {
-          text: "made him fall asleep",
-          correct: false,
-        },
-        {
-          text: "cut his hair",
+          text: "incited a revolt among the Jews",
           correct: true,
+        },
+        {
+          text: "opposed payment of taxes to the Temple",
+          correct: false,
         },
       ],
     },
@@ -173,24 +173,24 @@ function App() {
       ],
     },
     {
-      id: 4,
-      question: "The official Roman charge against Jesus was that he had?",
+      id: 8,
+      question: "What did Delilah do to Samson to take away his strength?",
       answers: [
         {
-          text: "committed blasphemy",
+          text: "talked him into fighting an army",
           correct: false,
         },
         {
-          text: "claimed to be a King",
+          text: "blinded him",
           correct: false,
         },
         {
-          text: "incited a revolt among the Jews",
+          text: "made him fall asleep",
+          correct: false,
+        },
+        {
+          text: "cut his hair",
           correct: true,
-        },
-        {
-          text: "opposed payment of taxes to the Temple",
-          correct: false,
         },
       ],
     },
@@ -870,8 +870,7 @@ function App() {
     },
     {
       id: 39,
-      question:
-        "The mother of john the baptist was?",
+      question: "The mother of john the baptist was?",
       answers: [
         {
           text: "Maude",
@@ -893,8 +892,7 @@ function App() {
     },
     {
       id: 40,
-      question:
-        "what did god ask the prophet Hosea to do?",
+      question: "what did god ask the prophet Hosea to do?",
       answers: [
         {
           text: "marry a prostitute",
@@ -916,8 +914,7 @@ function App() {
     },
     {
       id: 41,
-      question:
-        "which nation overthrew the Northern Kkingdom of Israel?",
+      question: "which nation overthrew the Northern Kkingdom of Israel?",
       answers: [
         {
           text: "Assyria",
@@ -939,8 +936,7 @@ function App() {
     },
     {
       id: 42,
-      question:
-        "the word genesis means?",
+      question: "the word genesis means?",
       answers: [
         {
           text: "ending",
@@ -984,32 +980,31 @@ function App() {
       ],
     },
     {
-      id: 1,
+      id: 44,
       question:
-        "in the book of numbers who challemges Moses authority?",
+        "Who visited Mary with the news that she would bear God's son, Jesus?",
       answers: [
         {
-          text: "Joshua",
-          correct: false,
-        },
-        {
-          text: "the people of Israel",
-          correct: false,
-        },
-        {
-          text: "the people of Levi",
-          correct: false,
-        },
-        {
-          text: "Aaron & Miriam",
+          text: "the angel Gabriel",
           correct: true,
+        },
+        {
+          text: "the Avon Lady",
+          correct: false,
+        },
+        {
+          text: "a census taker",
+          correct: false,
+        },
+        {
+          text: "the angel Raphael",
+          correct: false,
         },
       ],
     },
     {
       id: 45,
-      question:
-        "what makes Deborah a unique biblical figure?",
+      question: "what makes Deborah a unique biblical figure?",
       answers: [
         {
           text: "she was the mother of Gideon",
