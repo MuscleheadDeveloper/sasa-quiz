@@ -979,7 +979,7 @@ function App() {
         },
         {
           text: "CADB",
-          correct: falsee,
+          correct: false,
         },
       ],
     },
@@ -1053,7 +1053,7 @@ function App() {
       ],
     },
     {
-      id: 47,
+      id: 4,
       question:
         "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
       answers: [
