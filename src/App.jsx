@@ -16,7 +16,7 @@ function App() {
 
   const data = [
     {
-      id: 1,
+      id: 2,
       question:
         "List these famous women in the order in which they appear in the bible. A.Mary Magdalene B. Eve C.Sarah D.Mary, the mother of God",
       answers: [
@@ -39,7 +39,7 @@ function App() {
       ],
     },
     {
-      id: 2,
+      id: 44,
       question:
         "Who visited Mary with the news that she would bear Gods's son, Jesus?",
       answers: [
@@ -85,7 +85,7 @@ function App() {
       ],
     },
     {
-      id: 4,
+      id: 8,
       question: "What did Delilah do to Samson to take away his strength?",
       answers: [
         {
@@ -173,7 +173,7 @@ function App() {
       ],
     },
     {
-      id: 8,
+      id: 4,
       question: "The official Roman charge against Jesus was that he had?",
       answers: [
         {
@@ -842,6 +842,1271 @@ function App() {
         {
           text: "for they shall see God",
           correct: false,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 39,
+      question:
+        "The mother of john the baptist was?",
+      answers: [
+        {
+          text: "Maude",
+          correct: false,
+        },
+        {
+          text: "Miriam",
+          correct: false,
+        },
+        {
+          text: "Zachariah",
+          correct: false,
+        },
+        {
+          text: "Elizabeth",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 40,
+      question:
+        "what did god ask the prophet Hosea to do?",
+      answers: [
+        {
+          text: "marry a prostitute",
+          correct: true,
+        },
+        {
+          text: "interpret the dreams of the people of israel",
+          correct: false,
+        },
+        {
+          text: "spend the night in a lion's den",
+          correct: false,
+        },
+        {
+          text: "circle Ephraim seven times for repentance",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 41,
+      question:
+        "which nation overthrew the Northern Kkingdom of Israel?",
+      answers: [
+        {
+          text: "Assyria",
+          correct: true,
+        },
+        {
+          text: "Caanan",
+          correct: false,
+        },
+        {
+          text: "Babylon",
+          correct: false,
+        },
+        {
+          text: "Philistia",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 42,
+      question:
+        "the word genesis means?",
+      answers: [
+        {
+          text: "ending",
+          correct: false,
+        },
+        {
+          text: "creation",
+          correct: false,
+        },
+        {
+          text: "story of early man",
+          correct: false,
+        },
+        {
+          text: "beginning",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 43,
+      question:
+        "list these events in the life of Jesus in the order in which they occurred.  A.Jesus baptism B. Jesus raises Lazarus C. Judas betrays Jesus D.Jesus turns water to wine ",
+      answers: [
+        {
+          text: "ADCB",
+          correct: false,
+        },
+        {
+          text: "ABCD",
+          correct: false,
+        },
+        {
+          text: "ADBC",
+          correct: true,
+        },
+        {
+          text: "CADB",
+          correct: falsee,
+        },
+      ],
+    },
+    {
+      id: 1,
+      question:
+        "in the book of numbers who challemges Moses authority?",
+      answers: [
+        {
+          text: "Joshua",
+          correct: false,
+        },
+        {
+          text: "the people of Israel",
+          correct: false,
+        },
+        {
+          text: "the people of Levi",
+          correct: false,
+        },
+        {
+          text: "Aaron & Miriam",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 45,
+      question:
+        "what makes Deborah a unique biblical figure?",
+      answers: [
+        {
+          text: "she was the mother of Gideon",
+          correct: false,
+        },
+        {
+          text: "she helped Samson during his reign as judge",
+          correct: false,
+        },
+        {
+          text: "she was one of Israels judges",
+          correct: true,
+        },
+        {
+          text: "she hid Joshua from is enemies while he spied in Jericho",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 46,
+      question:
+        "whose hands restored Saul's sight after he was blinded on the road to Damascus?",
+      answers: [
+        {
+          text: "Barnabas",
+          correct: false,
+        },
+        {
+          text: "Ananias",
+          correct: true,
+        },
+        {
+          text: "Bar-Jesus",
+          correct: false,
+        },
+        {
+          text: "Peter",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 47,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 38,
+      question:
+        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+      answers: [
+        {
+          text: "Jeremiah",
+          correct: false,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Isaiah",
+          correct: true,
         },
       ],
     },
