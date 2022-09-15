@@ -1048,347 +1048,347 @@ function App() {
       ],
     },
     {
-      id: 4,
+      id: 46,
       question:
-        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+        "List these events in the life of Moses accordingly? A.Moses announces the 10 plagues B.Moses is found in the Nile C.Moses leads the Hebrews acrosss the red sea D.Moses meets God in the burning bush",
       answers: [
         {
-          text: "Jeremiah",
+          text: "BDAC",
+          correct: true,
+        },
+        {
+          text: "CDAB",
           correct: false,
         },
         {
-          text: "Ezekiel",
+          text: "BDCA",
           correct: false,
         },
         {
-          text: "Daniel",
+          text: "BCAD",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 47,
+      question:
+        "which of these is NOT an apostle of Jesus?",
+      answers: [
+        {
+          text: "Peter",
           correct: false,
         },
         {
-          text: "Isaiah",
+          text: "Simon",
+          correct: false,
+        },
+        {
+          text: "Philip",
+          correct: false,
+        },
+        {
+          text: "Yusuf",
           correct: true,
         },
       ],
     },
     {
-      id: 38,
+      id: 48,
       question:
-        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+        "What did Joseph receive from his father as a sign of special favor from Jacob that made his brothers jealous ?",
       answers: [
         {
-          text: "Jeremiah",
+          text: "a goat",
           correct: false,
         },
         {
-          text: "Ezekiel",
+          text: "a coat of many colors",
+          correct: true,
+        },
+        {
+          text: "a new wife",
           correct: false,
         },
         {
-          text: "Daniel",
+          text: "a puppy",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 49,
+      question:
+        "According to the Gospel of John, what was Jesus' first miracle?",
+      answers: [
+        {
+          text: "healing a paralytic",
           correct: false,
         },
         {
-          text: "Isaiah",
+          text: "walking on water",
+          correct: false,
+        },
+        {
+          text: "opening the sky and a dove resting on him after his baptism",
+          correct: false,
+        },
+        {
+          text: "turning water to wine",
           correct: true,
         },
       ],
     },
     {
-      id: 38,
+      id: 50,
       question:
-        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+        "Before his conversion to Christianity, Paul was a?",
       answers: [
         {
-          text: "Jeremiah",
+          text: "student of the law",
+          correct: true,
+        },
+        {
+          text: "tax collector",
           correct: false,
         },
         {
-          text: "Ezekiel",
+          text: "soldier",
           correct: false,
         },
         {
-          text: "Daniel",
+          text: "son of a rich merchant",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 51,
+      question:
+        "who was Hannah and Elkanah's first born son?",
+      answers: [
+        {
+          text: "John",
           correct: false,
         },
         {
-          text: "Isaiah",
+          text: "Samuel",
+          correct: true,
+        },
+        {
+          text: "Eli",
+          correct: false,
+        },
+        {
+          text: "Joshua",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 52,
+      question:
+        "List these Gospels in the order in which they appear in the Bible, from LAST to FIRST? A. Mark B.John C.Matthew D.Luke",
+      answers: [
+        {
+          text: "BDAC",
+          correct: true,
+        },
+        {
+          text: "CABD",
+          correct: false,
+        },
+        {
+          text: "BADC",
+          correct: false,
+        },
+        {
+          text: "BDCA",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 53,
+      question:
+        "Before the Israelites stormed Jericho, they?",
+      answers: [
+        {
+          text: "danced the macarena",
+          correct: false,
+        },
+        {
+          text: "sang 'the walls of jericho fell down flat' 7 times",
+          correct: false,
+        },
+        {
+          text: "gave 7 hearty cheers",
+          correct: false,
+        },
+        {
+          text: "circled the city 7 times blowing ram's horns",
           correct: true,
         },
       ],
     },
     {
-      id: 38,
+      id: 54,
       question:
-        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+        "why did Sarah laugh when 3 men told her that she and Abraham would have a son?",
       answers: [
         {
-          text: "Jeremiah",
+          text: "she had a similar dream",
           correct: false,
         },
         {
-          text: "Ezekiel",
+          text: "she thought they were scammers",
           correct: false,
         },
         {
-          text: "Daniel",
+          text: "she was very old",
+          correct: true,
+        },
+        {
+          text: "her maids told her a very funny joke",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 55,
+      question:
+        "the official governing body of the Jews during the time of Jesus was the?",
+      answers: [
+        {
+          text: "Sanhedrin",
+          correct: true,
+        },
+        {
+          text: "Scribes",
           correct: false,
         },
         {
-          text: "Isaiah",
+          text: "high priest",
+          correct: false,
+        },
+        {
+          text: "Pharises",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 56,
+      question:
+        "The priests in ancient Israel were members of the tribe of?",
+      answers: [
+        {
+          text: "Benjamin",
+          correct: false,
+        },
+        {
+          text: "Levi",
+          correct: true,
+        },
+        {
+          text: "Judah",
+          correct: false,
+        },
+        {
+          text: "Ephraim",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 57,
+      question:
+        "who was Paul's first convert in the region of Philippi?",
+      answers: [
+        {
+          text: "Priscilla",
+          correct: false,
+        },
+        {
+          text: "Silas",
+          correct: false,
+        },
+        {
+          text: "Lady",
+          correct: false,
+        },
+        {
+          text: "Lydia",
           correct: true,
         },
       ],
     },
     {
-      id: 38,
+      id: 58,
       question:
-        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+        "Who is the wife of Moses?",
       answers: [
         {
-          text: "Jeremiah",
+          text: "Miriam",
           correct: false,
         },
         {
-          text: "Ezekiel",
+          text: "Salome",
           correct: false,
         },
         {
-          text: "Daniel",
+          text: "Zamora",
           correct: false,
         },
         {
-          text: "Isaiah",
+          text: "Zipporah",
           correct: true,
         },
       ],
     },
     {
-      id: 38,
+      id: 59,
       question:
-        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+        "I am the Lord your God who brought you out of the land of bondage you shall?",
       answers: [
         {
-          text: "Jeremiah",
+          text: "remember the sabbath and keep it holy",
           correct: false,
         },
         {
-          text: "Ezekiel",
+          text: "eat bread every morning",
           correct: false,
         },
         {
-          text: "Daniel",
-          correct: false,
+          text: "have no other God but me",
+          correct: true,
         },
         {
-          text: "Isaiah",
+          text: "play FIFA every friday",
           correct: true,
         },
       ],
     },
     {
-      id: 38,
+      id: 60,
       question:
-        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+        "Who are the brothers of Thunder?",
       answers: [
         {
-          text: "Jeremiah",
+          text: "Esau and Jacob",
           correct: false,
         },
         {
-          text: "Ezekiel",
-          correct: false,
-        },
-        {
-          text: "Daniel",
-          correct: false,
-        },
-        {
-          text: "Isaiah",
+          text: "James and John",
           correct: true,
         },
-      ],
-    },
-    {
-      id: 38,
-      question:
-        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
-      answers: [
         {
-          text: "Jeremiah",
+          text: "Simon and Andrew",
           correct: false,
         },
         {
-          text: "Ezekiel",
+          text: "Aaron and Moses",
           correct: false,
-        },
-        {
-          text: "Daniel",
-          correct: false,
-        },
-        {
-          text: "Isaiah",
-          correct: true,
-        },
-      ],
-    },
-    {
-      id: 38,
-      question:
-        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
-      answers: [
-        {
-          text: "Jeremiah",
-          correct: false,
-        },
-        {
-          text: "Ezekiel",
-          correct: false,
-        },
-        {
-          text: "Daniel",
-          correct: false,
-        },
-        {
-          text: "Isaiah",
-          correct: true,
-        },
-      ],
-    },
-    {
-      id: 38,
-      question:
-        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
-      answers: [
-        {
-          text: "Jeremiah",
-          correct: false,
-        },
-        {
-          text: "Ezekiel",
-          correct: false,
-        },
-        {
-          text: "Daniel",
-          correct: false,
-        },
-        {
-          text: "Isaiah",
-          correct: true,
-        },
-      ],
-    },
-    {
-      id: 38,
-      question:
-        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
-      answers: [
-        {
-          text: "Jeremiah",
-          correct: false,
-        },
-        {
-          text: "Ezekiel",
-          correct: false,
-        },
-        {
-          text: "Daniel",
-          correct: false,
-        },
-        {
-          text: "Isaiah",
-          correct: true,
-        },
-      ],
-    },
-    {
-      id: 38,
-      question:
-        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
-      answers: [
-        {
-          text: "Jeremiah",
-          correct: false,
-        },
-        {
-          text: "Ezekiel",
-          correct: false,
-        },
-        {
-          text: "Daniel",
-          correct: false,
-        },
-        {
-          text: "Isaiah",
-          correct: true,
-        },
-      ],
-    },
-    {
-      id: 38,
-      question:
-        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
-      answers: [
-        {
-          text: "Jeremiah",
-          correct: false,
-        },
-        {
-          text: "Ezekiel",
-          correct: false,
-        },
-        {
-          text: "Daniel",
-          correct: false,
-        },
-        {
-          text: "Isaiah",
-          correct: true,
-        },
-      ],
-    },
-    {
-      id: 38,
-      question:
-        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
-      answers: [
-        {
-          text: "Jeremiah",
-          correct: false,
-        },
-        {
-          text: "Ezekiel",
-          correct: false,
-        },
-        {
-          text: "Daniel",
-          correct: false,
-        },
-        {
-          text: "Isaiah",
-          correct: true,
-        },
-      ],
-    },
-    {
-      id: 38,
-      question:
-        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
-      answers: [
-        {
-          text: "Jeremiah",
-          correct: false,
-        },
-        {
-          text: "Ezekiel",
-          correct: false,
-        },
-        {
-          text: "Daniel",
-          correct: false,
-        },
-        {
-          text: "Isaiah",
-          correct: true,
         },
       ],
     },
