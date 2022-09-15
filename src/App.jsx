@@ -1393,7 +1393,122 @@ function App() {
       ],
     },
     {
-      id: 38,
+      id: 61,
+      question:
+        "After spending forty days in the wilderness, Jesus had a visitor. Who?",
+      answers: [
+        {
+          text: "Angels, with food",
+          correct: false,
+        },
+        {
+          text: "John the baptist, to baptize him",
+          correct: false,
+        },
+        {
+          text: "Satan, to tempt him",
+          correct: true,
+        },
+        {
+          text: "Mary, to bring him red bull",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 62,
+      question:
+        "Wherever you go, i will go; wherever you live, i will live. Who said this?",
+      answers: [
+        {
+          text: "Naomi",
+          correct: false,
+        },
+        {
+          text: "Ruth",
+          correct: true,
+        },
+        {
+          text: "Salome",
+          correct: false,
+        },
+        {
+          text: "Hannah",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 63,
+      question:
+        "who is the author of the letter to the Hebrews?",
+      answers: [
+        {
+          text: "Paul",
+          correct: false,
+        },
+        {
+          text: "Unknown",
+          correct: true,
+        },
+        {
+          text: "Peter",
+          correct: false,
+        },
+        {
+          text: "Elijah",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 64,
+      question:
+        "Without a doubt, this disciple had to see to believe?",
+      answers: [
+        {
+          text: "Simon Peter",
+          correct: false,
+        },
+        {
+          text: "Andrew, brother of Peter",
+          correct: false,
+        },
+        {
+          text: "James, son of Zebedee",
+          correct: false,
+        },
+        {
+          text: "Thomas",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 65,
+      question:
+        "This man is known as the last of the prophets?",
+      answers: [
+        {
+          text: "John the Baptist",
+          correct: true,
+        },
+        {
+          text: "Ezekiel",
+          correct: false,
+        },
+        {
+          text: "Daniel",
+          correct: false,
+        },
+        {
+          text: "Jesus",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 66,
       question:
         "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
       answers: [
@@ -1416,7 +1531,7 @@ function App() {
       ],
     },
     {
-      id: 38,
+      id: 67,
       question:
         "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
       answers: [
@@ -1439,7 +1554,7 @@ function App() {
       ],
     },
     {
-      id: 38,
+      id: 68,
       question:
         "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
       answers: [
@@ -1462,7 +1577,7 @@ function App() {
       ],
     },
     {
-      id: 38,
+      id: 69,
       question:
         "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
       answers: [
@@ -1485,7 +1600,7 @@ function App() {
       ],
     },
     {
-      id: 38,
+      id: 70,
       question:
         "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
       answers: [
@@ -1508,7 +1623,7 @@ function App() {
       ],
     },
     {
-      id: 38,
+      id: 71,
       question:
         "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
       answers: [
@@ -1531,7 +1646,7 @@ function App() {
       ],
     },
     {
-      id: 38,
+      id: 72,
       question:
         "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
       answers: [
@@ -1554,7 +1669,7 @@ function App() {
       ],
     },
     {
-      id: 38,
+      id: 73,
       question:
         "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
       answers: [
@@ -1577,7 +1692,7 @@ function App() {
       ],
     },
     {
-      id: 38,
+      id: 74,
       question:
         "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
       answers: [
@@ -1600,7 +1715,7 @@ function App() {
       ],
     },
     {
-      id: 38,
+      id: 75,
       question:
         "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
       answers: [
@@ -1623,7 +1738,7 @@ function App() {
       ],
     },
     {
-      id: 38,
+      id: 76,
       question:
         "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
       answers: [
@@ -1646,7 +1761,7 @@ function App() {
       ],
     },
     {
-      id: 38,
+      id: 77,
       question:
         "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
       answers: [
@@ -1669,7 +1784,7 @@ function App() {
       ],
     },
     {
-      id: 38,
+      id: 78,
       question:
         "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
       answers: [
@@ -1692,7 +1807,7 @@ function App() {
       ],
     },
     {
-      id: 38,
+      id: 79,
       question:
         "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
       answers: [
@@ -1715,7 +1830,7 @@ function App() {
       ],
     },
     {
-      id: 38,
+      id: 80,
       question:
         "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
       answers: [
@@ -1738,7 +1853,7 @@ function App() {
       ],
     },
     {
-      id: 38,
+      id: 81,
       question:
         "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
       answers: [
@@ -1761,7 +1876,7 @@ function App() {
       ],
     },
     {
-      id: 38,
+      id: 82,
       question:
         "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
       answers: [
@@ -1784,7 +1899,7 @@ function App() {
       ],
     },
     {
-      id: 38,
+      id: 83,
       question:
         "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
       answers: [
@@ -1807,7 +1922,7 @@ function App() {
       ],
     },
     {
-      id: 38,
+      id: 84,
       question:
         "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
       answers: [
@@ -1830,7 +1945,7 @@ function App() {
       ],
     },
     {
-      id: 38,
+      id: 85,
       question:
         "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
       answers: [
@@ -1853,7 +1968,7 @@ function App() {
       ],
     },
     {
-      id: 38,
+      id: 86,
       question:
         "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
       answers: [
@@ -1876,7 +1991,7 @@ function App() {
       ],
     },
     {
-      id: 38,
+      id: 87,
       question:
         "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
       answers: [
@@ -1899,7 +2014,7 @@ function App() {
       ],
     },
     {
-      id: 38,
+      id: 88,
       question:
         "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
       answers: [
@@ -1922,7 +2037,7 @@ function App() {
       ],
     },
     {
-      id: 38,
+      id: 89,
       question:
         "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
       answers: [
@@ -1945,7 +2060,7 @@ function App() {
       ],
     },
     {
-      id: 38,
+      id: 90,
       question:
         "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
       answers: [
@@ -1968,7 +2083,7 @@ function App() {
       ],
     },
     {
-      id: 38,
+      id: 91,
       question:
         "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
       answers: [
@@ -1991,124 +2106,9 @@ function App() {
       ],
     },
     {
-      id: 38,
+      id: 92,
       question:
-        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
-      answers: [
-        {
-          text: "Jeremiah",
-          correct: false,
-        },
-        {
-          text: "Ezekiel",
-          correct: false,
-        },
-        {
-          text: "Daniel",
-          correct: false,
-        },
-        {
-          text: "Isaiah",
-          correct: true,
-        },
-      ],
-    },
-    {
-      id: 38,
-      question:
-        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
-      answers: [
-        {
-          text: "Jeremiah",
-          correct: false,
-        },
-        {
-          text: "Ezekiel",
-          correct: false,
-        },
-        {
-          text: "Daniel",
-          correct: false,
-        },
-        {
-          text: "Isaiah",
-          correct: true,
-        },
-      ],
-    },
-    {
-      id: 38,
-      question:
-        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
-      answers: [
-        {
-          text: "Jeremiah",
-          correct: false,
-        },
-        {
-          text: "Ezekiel",
-          correct: false,
-        },
-        {
-          text: "Daniel",
-          correct: false,
-        },
-        {
-          text: "Isaiah",
-          correct: true,
-        },
-      ],
-    },
-    {
-      id: 38,
-      question:
-        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
-      answers: [
-        {
-          text: "Jeremiah",
-          correct: false,
-        },
-        {
-          text: "Ezekiel",
-          correct: false,
-        },
-        {
-          text: "Daniel",
-          correct: false,
-        },
-        {
-          text: "Isaiah",
-          correct: true,
-        },
-      ],
-    },
-    {
-      id: 38,
-      question:
-        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
-      answers: [
-        {
-          text: "Jeremiah",
-          correct: false,
-        },
-        {
-          text: "Ezekiel",
-          correct: false,
-        },
-        {
-          text: "Daniel",
-          correct: false,
-        },
-        {
-          text: "Isaiah",
-          correct: true,
-        },
-      ],
-    },
-    {
-      id: 38,
-      question:
-        "After spending forty days in the wilderness, from what prophetic scroll did Jesus read while he was in the synagogue in Nazareth?",
+        "?",
       answers: [
         {
           text: "Jeremiah",
@@ -2207,6 +2207,24 @@ function App() {
       { id: 73, amount: "5.000.000.000 Shekels" },
       { id: 74, amount: "6.000.000.000 Shekels" },
       { id: 75, amount: "7.000.000.000 Shekels" },
+      { id: 76, amount: "8.000.000.000 Shekels" },
+      { id: 77, amount: "9.000.000.000 Shekels" },
+      { id: 78, amount: "10.000.000.000 Shekels" },
+      { id: 79, amount: "11.000.000.000 Shekels" },
+      { id: 80, amount: "12.000.000.000 Shekels" },
+      { id: 81, amount: "13.000.000.000 Shekels" },
+      { id: 82, amount: "14.000.000.000 Shekels" },
+      { id: 83, amount: "15.000.000.000 Shekels" },
+      { id: 84, amount: "16.000.000.000 Shekels" },
+      { id: 85, amount: "17.000.000.000 Shekels" },
+      { id: 86, amount: "18.000.000.000 Shekels" },
+      { id: 87, amount: "19.000.000.000 Shekels" },
+      { id: 88, amount: "20.000.000.000 Shekels" },
+      { id: 89, amount: "21.000.000.000 Shekels" },
+      { id: 90, amount: "22.000.000.000 Shekels" },
+      { id: 91, amount: "23.000.000.000 Shekels" },
+      { id: 92, amount: "24.000.000.000 Shekels" },
+      { id: 93, amount: "25.000.000.000 Shekels" },
     ],
     []
   );
